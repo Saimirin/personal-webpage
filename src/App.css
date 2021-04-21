@@ -13,6 +13,10 @@ body {
 }
 
 /************NAVBAR***********/
+nav{
+  z-index: 2;
+}
+
 .logo{
   width: 16.25rem;
 }
@@ -34,6 +38,12 @@ nav a.nav-link {
   max-width: 17.25rem;
   padding: 0 i !important;
   height: 6rem im !important;
+}
+
+@media(max-width: 768px) {
+  .navbar-nav {
+    width: 7rem;
+  }
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
@@ -78,6 +88,15 @@ nav a.nav-link {
   color: var(--primary-white);
 }
 
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}
+
 /************HEADER MAIN OFFER BUTTON***********/
 .btn-main-offer {
   border: 1px solid var(--primary-red);
@@ -86,4 +105,16 @@ nav a.nav-link {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+}
+/************PARTICLES JS***********/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
