@@ -10,7 +10,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2021 March </h3>
+            <h3>2021 March (2nd - 10th)</h3>
                 <li>Launched an inspired Progressive WebApp to buy and sell second-handbooksin community service.</li>
                  <li>Planned on system design, integrated the full-stack connection to enable the functionary of the app.</li>
                 <li>Expanded the app featureswith Google geolocation API, Google Books, Socket, Barcode Lookup API. </li>      
@@ -20,7 +20,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2021 March</h3>
+            <h3>2021 March 16th - April 5th </h3>
                 <li>Developed a mock e-commerce website to allow users purchase  products and manage  products as an admin.</li>
                 <li>Planned  on schema  design, programmed backend (API routes, database query), frontend (React Components, Redux store, state management),  styled the page layout with CSS.</li>
                 <li>Managed git Pull Requests and coordinated with teammates  to resolve merge  conf licts.</li>
@@ -47,7 +47,7 @@ const Experience = () => {
           </div>
         </div>
         {/* - */}
-        <div className="timeline-block timeline-block-left">
+        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2019 October - 2019 December</h3>
@@ -57,7 +57,7 @@ const Experience = () => {
           </div>
         </div>
         {/* - */}
-        <div className="timeline-block timeline-block-right">
+        <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2019 June</h3>
