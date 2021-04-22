@@ -1,5 +1,6 @@
 import React from 'react'
 import me from '../Meilun_DiFrancisco.jpeg'
+import SocialMedia from './SocialMedia'
 
 const AboutMe = () => {
     return (
@@ -8,7 +9,9 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <div className="photo-wrap mb-5">
                         <img className="profile-img" src={me} alt="" />
-                    </div>    
+                        
+                    </div>
+                    <SocialMedia />    
                 </div>
 
                 <div className="col-lg-6 col-xm-12">

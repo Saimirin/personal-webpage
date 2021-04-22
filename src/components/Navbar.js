@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Logo
+          HOME
         </a>
         <button
           className="navbar-toggler"
@@ -36,12 +36,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                services
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                how work
+                Experience
               </a>
             </li>
             <li className="nav-item">
@@ -51,7 +46,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                contact
+                contact me
               </a>
             </li>
           </ul>
