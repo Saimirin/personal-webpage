@@ -70,6 +70,7 @@ nav ul li {
 .header-wraper {
   position: relative;
   background: url(background-3.jpeg) no-repeat;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.6));
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -91,7 +92,7 @@ nav ul li {
 
 .main-info h1 {
   color: var(--primary-orange);
-  text-transform: uppercase;
+ 
 }
 
 /*-------- TYPED TEXT ---------------*/
@@ -106,7 +107,6 @@ nav ul li {
   }
   .typed-text {
     font-size: 1.3rem !important;
-
   }
 }
 
@@ -219,6 +219,11 @@ nav ul li {
 .experience h1 {
   text-transform: uppercase;
   color: var(--primary-orange);
+}
+
+.experience h5 {
+  color: var(--primary-dark-grey);
+  font-weight:bolder;
 }
 
 .experience-wrapper::before {
