@@ -7,6 +7,8 @@ import Header from './components/Header'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
+import Contacts from './components/Contacts'
+
 
 function App() {
   return (
@@ -35,7 +37,8 @@ function App() {
       <Header />
       <AboutMe />
       <Experience />
-      <Portfolio />  
+      <Portfolio />
+      <Contacts />  
     </div>
   );
 }
