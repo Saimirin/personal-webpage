@@ -10,6 +10,7 @@ import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts'
 import Recommendation from './components/Recommendation';
 import Footer from './components/Footer';
+import Skill from './components/Skill';
 
 
 
@@ -41,6 +42,7 @@ function App() {
       <AboutMe />
       <Recommendation />
       <Experience />
+      <Skill />
       <Portfolio />
       <Contacts /> 
       <Footer /> 
