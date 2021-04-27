@@ -1,9 +1,8 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-import kostas from "../Kostas_Stroumbakis.png"
-import stephen from "../Stephen_Levin.png"
+import kostas from "../images/Kostas_Stroumbakis.png"
+import stephen from "../images/Stephen_Levin.png"
 
 
 const RecomCarousel = () => {

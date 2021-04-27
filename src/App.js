@@ -9,6 +9,8 @@ import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts'
 import Recommendation from './components/Recommendation';
+import Footer from './components/Footer';
+
 
 
 function App() {
@@ -40,7 +42,8 @@ function App() {
       <Recommendation />
       <Experience />
       <Portfolio />
-      <Contacts />  
+      <Contacts /> 
+      <Footer /> 
     </div>
   );
 }

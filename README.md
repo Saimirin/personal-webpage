@@ -73,4 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 React-popupbox: [https://www.npmjs.com/package/react-popupbox]
 React-Hook-Form: [https://react-hook-form.com/get-started#Quickstart]
 react-responsive-carousel: [https://www.npmjs.com/package/react-responsive-carousel]
-
+react-share: [https://www.npmjs.com/package/react-share]

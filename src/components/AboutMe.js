@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../Meilun_DiFrancisco.jpeg'
+import me from '../images/Meilun_DiFrancisco.jpeg'
 import SocialMedia from './SocialMedia'
 
 const AboutMe = () => {

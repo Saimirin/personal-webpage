@@ -1,6 +1,6 @@
 import React from "react";
-import Planthopper from "../Planthopper.png";
-import CloneSignal from "../CloneSignal.png";
+import Planthopper from "../images/Planthopper.png";
+import CloneSignal from "../images/CloneSignal.png";
 
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
