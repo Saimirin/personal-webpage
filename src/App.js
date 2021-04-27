@@ -8,6 +8,7 @@ import AboutMe from './components/AboutMe'
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts'
+import Recommendation from './components/Recommendation';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
+      <Recommendation />
       <Experience />
       <Portfolio />
       <Contacts />  

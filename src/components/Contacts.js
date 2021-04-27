@@ -11,7 +11,6 @@ const Contacts = () => {
   const userID = "user_2seHjm5nPiEdSKAZKFrf5";
 
   const onSubmit = (data, r) => {
-    console.log ("onSubmitting data...", data)
     sendEmail(
       serviceID,
       templateID,

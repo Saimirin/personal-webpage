@@ -71,4 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Library used for this site
 React-popupbox: [https://www.npmjs.com/package/react-popupbox]
-React-Hook-Form; [https://react-hook-form.com/get-started#Quickstart]
+React-Hook-Form: [https://react-hook-form.com/get-started#Quickstart]
+react-responsive-carousel: [https://www.npmjs.com/package/react-responsive-carousel]
+
