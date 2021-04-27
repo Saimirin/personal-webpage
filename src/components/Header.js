@@ -14,7 +14,10 @@ const Header = () => {
                     backSpeed={60}
                     loop
                 />
+                <h5> (This web page is still under processing...)</h5>
                 <a href="#" className="btn-main-offer">contact me</a>
+
+                
             </div>            
         </div>
     )
