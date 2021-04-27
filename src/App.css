@@ -73,7 +73,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(background-3.jpeg) no-repeat;
+  background: url(background-5.gif) no-repeat;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.6));
   background-size: cover;
   background-position: center;
@@ -499,5 +499,7 @@ textarea.form-control {
     padding: 0 0.4rem;
   }
 }
+
+
 
 
