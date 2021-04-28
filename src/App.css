@@ -5,15 +5,20 @@
   --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
-  --primary-orange: #f9ab00;
   --primary-dark: rgb(52, 58, 64);
+  --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-black: #000000;
+
+  --primary-orange: #F4976C;
+  --primary-yellow: #FBE8A6;
+  --primary-blue: #303c6c;
+  --primary-dark-cyan: #B4DFE5;
+  --primary-light-cyan: #D2FDFF;
+
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
-  --primary-black: #000000;
-  --primary-transparent-black: rgba(0,0,0,0.7);
   --primary-green: green;
 }
-
 
 body {
 font-family: "Roboto Condensed", sans-serif !important;
@@ -24,7 +29,11 @@ font-family: "Roboto Condensed", sans-serif !important;
 
 nav {
   z-index: 2;
+  background-color:var(--primary-blue)
+  ;
 }
+
+
 
 .logo {
   width: 16.25rem;
@@ -45,7 +54,7 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-dark);
+  border-top: 0.1875rem solid var(--primary-orange);
 }
 
 .navbar-brand {
@@ -73,7 +82,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(images/background-3.jpeg) no-repeat;
+  background: url(images/background-2.jpg) no-repeat;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.6));
   background-size: cover;
   background-position: center;
@@ -95,6 +104,8 @@ nav ul li {
 }
 
 .main-info h1 {
+  font-size: 2.8rem;
+  font-weight: bolder;
   color: var(--primary-orange);
  
 }
@@ -102,7 +113,7 @@ nav ul li {
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-white);
+  color: var(--primary-blue);
 }
 
 @media(max-width: 768px) {
@@ -120,7 +131,7 @@ nav ul li {
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  color: var(--primary-orange);
   margin: 2rem;
 }
 
@@ -134,7 +145,7 @@ nav ul li {
 /*-------- PARTICLES JS ---------------*/
 .tsparticles-canvas-el {
   position: absolute;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   z-index: 1;
 }
@@ -147,6 +158,12 @@ nav ul li {
 
 /************************ ABOUT ME *********************************/
 .photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,31 +188,26 @@ nav ul li {
 }
 
 /************************ SSM icon*********************************/
-.services {
-  text-align: center;
-  padding-bottom: 1rem;
-  background: var(--primary-light-grey);
-}
 
-.services .circle {
+.circle {
   position: relative;
   margin: 0.175rem auto;
-  background: var(--primary-orange);
+  border-color: var(--primary-orange);
   border-radius: 50%;
   width: 3.125rem;
   height: 3.125rem;
 }
 
-.services .icon {
-  font-size: 1.4rem;
-  color: var(--primary-white);
+.circle .icon {
+  font-size: 1.rem;
+  color: var(--primary-dark-grey);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.services .icon:hover {
+.circle .icon:hover {
   background: var(--primary-orange);
   border-bottom: 0.3125rem solid var(--primary-dark);
 }
@@ -308,7 +320,7 @@ nav ul li {
 
 /************************ PORTFOLIO *********************************/
 .portfolio-wrapper {
-  background: var(--primary-light-grey);
+  background: var(--primary-light-cyan);
   padding: 3rem 0;
 }
 

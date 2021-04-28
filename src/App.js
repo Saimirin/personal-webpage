@@ -11,6 +11,7 @@ import Contacts from './components/Contacts'
 import Recommendation from './components/Recommendation';
 import Footer from './components/Footer';
 import Skill from './components/Skill';
+import Artical from './components/Artical';
 
 
 
@@ -21,17 +22,17 @@ function App() {
         params={{
           particles: {
             number: {
-              value: 30,
+              value: 10,
               density: {
                 enable:true,
-                value_area:900,
+                value_area:700,
               }
             },
             shape: {
               type: "circle",
               stroke: {
-                width: 6,
-                color: "#f9ab00",
+                width: 56,
+                color: "#F4976C",
               }
             }
           }
@@ -44,6 +45,7 @@ function App() {
       <Experience />
       <Skill />
       <Portfolio />
+      <Artical />
       <Contacts /> 
       <Footer /> 
     </div>

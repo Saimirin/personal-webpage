@@ -7,7 +7,7 @@ const Header = () => {
         <div className="header-wraper">
             <div className="main-info">
                 <canvas></canvas>
-                <h1>Hi, I am Meilun DiFrancisco, I am...</h1>
+                <h1>Hi, I am Meilun DiFrancisco</h1>
                 <Typed 
                     className="typed-text"
                     strings={["Full Stack Software Developer", "Backend Engineer", "Data Scientist", "Machine Learning engineer"]}

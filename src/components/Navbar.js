@@ -2,13 +2,14 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { Link } from "react-scroll";
+import SocialMedia from './SocialMedia'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#">
-          HOME
+          Logo
         </a>
         <button
           className="navbar-toggler"
@@ -43,6 +44,11 @@ const Navbar = () => {
             <li className="nav-item">
               <Link smooth={true} to="portforlio" className="nav-link" href="#">
                 portforlio
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link smooth={true} to="artical" className="nav-link" href="#">
+                artical
               </Link>
             </li>
             <li className="nav-item">
