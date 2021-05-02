@@ -8,9 +8,12 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          Logo
-        </a>
+        <div className="navbar-brand" >
+        Meilun
+        </div>
+        <div className="navbar-brand">
+        DiFrancisco
+        </div>
         <button
           className="navbar-toggler"
           type="button"

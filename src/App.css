@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 
 :root {
   --primary-white: #ffffff;
@@ -82,8 +84,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(images/background-2.jpg) no-repeat;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.6));
+  background: url(images/mario-1.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -95,7 +96,7 @@ nav ul li {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 10;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -104,7 +105,8 @@ nav ul li {
 }
 
 .main-info h1 {
-  font-size: 2.8rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.1rem;
   font-weight: bolder;
   color: var(--primary-orange);
  
@@ -112,6 +114,8 @@ nav ul li {
 
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
+  font-family: ;
+  align-content:flex-end;
   font-size: 2rem;
   color: var(--primary-blue);
 }
