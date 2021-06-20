@@ -8,18 +8,17 @@ import AboutMe from './components/AboutMe'
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts'
-import Recommendation from './components/Recommendation';
 import Footer from './components/Footer';
-import Skill from './components/Skill';
-import Artical from './components/Artical';
+//import Recommendation from './components/Recommendation';
+//import Skill from './components/Skill';
 //import Particles from "react-tsparticles";
-import Particles from "react-particles-js";
+//import Particles from "react-particles-js";
 
 
 function App() {
   return (
     <div className="App">
-      <Particles
+      {/* <Particles
     params={{
 	    "particles": {
 	        "number": {
@@ -72,15 +71,12 @@ function App() {
 	        }
 	    }
 	}} />
-      
+       */}
       <Navbar />
       <Header />
       <AboutMe />
-      <Recommendation />
       <Experience />
-      <Skill />
       <Portfolio />
-      <Artical />
       <Contacts /> 
       <Footer /> 
     </div>
