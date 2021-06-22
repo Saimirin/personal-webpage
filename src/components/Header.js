@@ -10,11 +10,7 @@ const Header = () => {
             <div className="main-info">
                 <canvas></canvas>
                 <h1>Hi,I am Meilun! </h1>
-               
-                
-                <div> 
-                    <h2> I'm a</h2>
-                    <Typed 
+                 <Typed 
                     className="typed-text"
                     strings={["Full Stack Software Developer", "Backend Engineer", "Data Scientist", "Machine Learning engineer"]}
                     typeSpeed={70}
@@ -22,10 +18,10 @@ const Header = () => {
                     backDelay={700}
                     loop
                     smartBackspace
-                     />
-                </div>
+                />
+                
              
-                <Link smooth={true} to="contact" className="btn-main-offer">contact me</Link>
+                <Link smooth={true} to="contact" offset={-110} className="btn-main-offer">contact me</Link>
 
             </div>            
         </div>

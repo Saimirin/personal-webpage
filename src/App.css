@@ -12,11 +12,11 @@
   --primary-transparent-blue: rgba(1,30,3,8);
   --primary-black: #000000;
 
-  --primary-orange: #f77d4d;
+  --primary-orange: #f7801e;
   --primary-yellow: #FBE8A6;
   --primary-blue: #303c6c;
   --primary-dark-cyan: #B4DFE5;
-  --primary-light-cyan: #D2FDFF;
+  --primary-light-cyan: #f4ffff;
 
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
@@ -61,12 +61,13 @@ nav ul li {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 5rem !important;
 }
 
 @media(max-width: 768px) {
  .navbar-brand {
    width: 7rem;
+
  }
 }
 
@@ -84,27 +85,26 @@ nav ul li {
 .header-wraper {
   position: relative;
   background: url(images/header-3.png) no-repeat;
-  background-size:contain;
-  background-position: center;
-  height: 130vh;
+  background-size:cover;
+  background-position:right;
+  height: 80vh;
 }
 
 .main-info {
-  display: flex;
+  display:flex;
   position: absolute;
-  top: 0;
+  top:20%;
   left: 0;
   right: 0;
   bottom: 0;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   text-align: center;
   z-index: 1;
 }
 
 .main-info h1 {
-  
   font-size: 4.0rem;
   font-weight:900;
   color: var(--primary-orange);
@@ -112,15 +112,13 @@ nav ul li {
 }
 .main-info h2 {
   font-size: 3.0rem;
-  font-weight: 1000;
+  font-weight: 900;
   color: var(--primary-orange);
  
 }
 
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
-  
-  align-content:flex-end;
   font-size: 2.0rem;
   color: var(--primary-blue);
 }
@@ -190,9 +188,24 @@ nav ul li {
   color: var(--primary-orange);
   text-transform: uppercase;
 }
+.aboutme-content {
+  overflow: hidden;
+  line-height: 1.2em;
+  height: 4.6em;
+}
+.aboutme-content.collapsed{
+  overflow: hidden;
+}
+.aboutme-content.expanded{
+  overflow: visible;
+  height: auto;
+}
 
 @media(max-width: 468px) {
   .profile-img {
+    width: 10rem;
+  }
+  .social-media {
     width: 10rem;
   }
 }
@@ -500,7 +513,7 @@ nav ul li {
 }
 
 .contacts p {
-  color: var(--primary-light-grey);
+  color:var(--primary-orange);
   font-size: 1.2rem;
 }
 
