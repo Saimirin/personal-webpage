@@ -16,17 +16,7 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={Planthopper} alt="" />
         <p>
-          a mock e-commerce website to allow users purchase products and manage
-          products as an admin,a mock e-commerce website to allow users purchase products and manage
-          products as an admina mock e-commerce website to allow users purchase products and manage
-          products as an admina mock e-commerce website to allow users purchase products and manage
-          products as an admina mock e-commerce website to allow users purchase products and manage
-          products as an admina mock e-commerce website to allow users purchase products and manage
-          products as an admin
-
-          a mock e-commerce website to allow users purchase products and manage
-          products as an admina mock e-commerce website to allow users purchase products and manage
-          products as an admin
+          a mock e-commerce website to allow users purchase products and manage products as an admin
         </p>
         <div>
           <a className="hyper-link" href="https://planthopper.herokuapp.com/"> click here for Webpage </a>
