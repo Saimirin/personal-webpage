@@ -188,10 +188,10 @@ nav ul li {
   color: var(--primary-orange);
   text-transform: uppercase;
 }
-/* .readmore-text {
+.readmore-text {
   display: inline;
   width: 100%;
-} */
+}
 
 .read-or-hide{
   color:var(--primary-orange);
