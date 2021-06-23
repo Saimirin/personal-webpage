@@ -188,17 +188,14 @@ nav ul li {
   color: var(--primary-orange);
   text-transform: uppercase;
 }
-.aboutme-content {
-  overflow: hidden;
-  line-height: 1.2em;
-  height: 4.6em;
-}
-.aboutme-content.collapsed{
-  overflow: hidden;
-}
-.aboutme-content.expanded{
-  overflow: visible;
-  height: auto;
+/* .readmore-text {
+  display: inline;
+  width: 100%;
+} */
+
+.read-or-hide{
+  color:var(--primary-orange);
+  cursor: pointer;
 }
 
 @media(max-width: 468px) {
